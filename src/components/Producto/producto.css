@@ -1,0 +1,141 @@
+.producto-container{
+    width: 100%;
+    min-height: 600px;
+    margin-top: 120px;
+}
+
+.c-producto{
+    margin: 60px 0;
+    width: 100%;
+    background-color: rgb(43, 42, 42);
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.producto{
+    width: 65%;
+    padding: 20px 0;
+}
+
+.producto .p-image{
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    max-height: 600px;
+}
+
+.producto .p-image img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.c-producto .p-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0px;
+    padding-left: 10px;
+}
+
+.c-producto .p-description .p-texto{
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+.c-producto .p-description .p-texto h3{
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.c-producto .p-description .p-texto strong{
+    font-weight: 600;
+    color: #5bc0de;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.c-producto .p-detalles{
+    height: 100%;
+    background-color: rgb(235, 235, 235);
+    padding: 15px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c-producto .p-detalles .detalles{
+    height: 100%;
+    min-height: 200px;
+    max-height: 350px;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.c-producto .p-detalles strong{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+.c-producto .p-detalles h6{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #3b3b3b;
+}
+
+.c-producto .p-detalles p{
+    font-size: 18px;
+    margin-top: 12px;
+    text-align: justify;
+    text-transform: lowercase;
+}
+
+.c-producto .p-contacto .contac{
+    padding: 10px 10px;
+}
+
+.c-producto .p-contacto p{
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: rgb(216, 215, 215);
+}
+
+.c-producto .p-contacto p svg{
+    margin-top: -3px;
+    color: rgb(255, 255, 255);
+}
+
+.c-producto .p-contacto .contac strong{
+    color: rgb(218, 216, 216);
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+
+@media only screen and (max-width: 1500px){
+    .producto{
+        width: 90%;
+    }
+}   
+
+@media only screen and (max-width: 800px){
+    .c-producto .whatsapp{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .producto{
+        width: 100%;
+    }
+}

@@ -1,0 +1,16 @@
+.navegation{
+    background-color: #111111;
+}
+
+.navegation a{
+    color: #000;
+}
+
+.form-search input{
+    width: 85%;
+}
+
+.logo-icon:link, .logo-icon:visited, .logo-icon:active{
+    font-weight: 700;
+    text-decoration: none;
+}
